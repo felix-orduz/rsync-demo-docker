@@ -1,0 +1,13 @@
+version: '3'
+services:
+  maquina1:
+    build:
+      context: .
+      dockerfile: dockerfile
+    command: ["sleep","infinity"]
+  maquina2:
+    build:
+      context: .
+      dockerfile: dockerfile
+    command: ["sleep","infinity"]
+    
